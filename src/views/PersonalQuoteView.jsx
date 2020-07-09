@@ -16,6 +16,7 @@ export default function PersonalQuoteView() {
     );
     if (myQuoteInputValue.length > 0 && !samePersonalQuote.length) {
       dispatch(addPersonalQuote(myQuoteInputValue));
+      setMyQuoteInputValue('');
     }
   };
 
