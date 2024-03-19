@@ -1,3 +1,18 @@
+# Archidax Frontend Test
+
+[![GitHub Actions Build](https://github.com/rafiandria23/archidax-frontend-test/actions/workflows/ci.yaml/badge.svg)](https://github.com/rafiandria23/archidax-frontend-test/actions/workflows/ci.yaml)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=coverage)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rafiandria23_archidax-frontend-test&metric=bugs)](https://sonarcloud.io/summary/new_code?id=rafiandria23_archidax-frontend-test)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -45,24 +60,24 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+This section has moved here: <https://facebook.github.io/create-react-app/docs/code-splitting>
 
 ### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This section has moved here: <https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size>
 
 ### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+This section has moved here: <https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app>
 
 ### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This section has moved here: <https://facebook.github.io/create-react-app/docs/advanced-configuration>
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This section has moved here: <https://facebook.github.io/create-react-app/docs/deployment>
 
 ### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: <https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify>
