@@ -3,20 +3,27 @@ name: CI
 on:
   push:
     branches:
-      - '**'
+      - "**"
 
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
+      - name: Checkout Code
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
         with:
-          node-version: 24
-      - name: Dependency Installation
-        run: yarn --frozen-lockfile
-      - name: Analysis
-        uses: SonarSource/sonarcloud-github-action@master
+          node-version: lts/*
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install Dependencies
+        run: yarn --immutable
+
+      - name: Analyze Code
+        uses: SonarSource/sonarqube-scan-action@v6
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
